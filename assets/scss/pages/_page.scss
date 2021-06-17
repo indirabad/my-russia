@@ -1,0 +1,34 @@
+.page {
+
+    //.page__wrapper
+    &__wrapper {
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.aside {
+
+    //.aside-small
+    &-small {
+        background: $bg-deep-grey;        
+        width: 100%;
+        min-height: 50px;
+        margin-bottom: 30px;
+
+        @media (min-width: 992px) {
+            height: 466px;
+            width: 180px;
+            margin-right: 8px;
+        }
+    }
+}
+
+// THEME DARK
+.theme-dark {
+    .aside-small {
+        background: $bg-dark-blue;
+    }
+}

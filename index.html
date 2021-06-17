@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Россия Тест</title>
+    <meta name="description" content="Моя Россия Тест">
+    <meta name="keywords" content="Моя Россия Тест">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body><header class="header__wrapper"></header>
+<main>
+    <div class="container">
+        <div class="page__wrapper">
+            <aside class="aside-small">
+            </aside>
+            <div class="form-institute__wrapper">
+                <form action="">
+                    <div class="form__header">
+                        <h3 class="form__title">Учебное заведение</h3>
+                        <button type="submit" class="btn btn-normal btn-primary">Сохранить</button>
+                    </div>
+                    <div class="form__row form__input-group">
+                        <div class="form__input">
+                            <label class="h5" for="specialty">Специальность</label>
+                            <input type="text" id="specialty" placeholder="Введите специализацию">
+                        </div>
+                        <div class="form__input form__check">
+                            <input type="checkbox" id="instituteStPetersburg">
+                            <label for="instituteStPetersburg">Высшее учебное заведение Санкт-Петербурга</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input">
+                            <label class="h5" for="institute">Заведение</label>
+                            <input type="text" id="institute" placeholder="Введите учёную степень или звание">
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input form__check">
+                            <input type="checkbox" id="masterDegree">
+                            <label for="masterDegree">Магистратура учебного заведения</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <button type="button" class="btn btn-normal btn-default">Добавить</button>
+                    </div>
+                    <div class="form__row form__row-border form__input-group">
+                        <button type="button" class="btn btn__icon-delete app_btn-delete"></button>
+                        <div class="form__input switcher">
+                            <div class="switcher__container">
+                                <label for="institute-2">Заведение</label>
+                                <div class="switcher__wrapper">
+                                    <div class="switcher__box">
+                                        <input type="checkbox" class="switcher__check">
+                                        <div class="switcher__switch"></div>
+                                        <div class="switcher__track"></div>
+                                    </div>
+                                    <span>Switch</span>
+                                </div>
+                            </div>
+                            <input type="text" id="institute-2" placeholder="Введите учёную степень или звание">
+                        </div>
+                        <div class="form__input form__input-error">
+                            <label for="specialty-2">Специальность</label>
+                            <input type="text" id="specialty-2" placeholder="Введите специализацию">
+                            <span class="note note-error">Error</span>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <button type="button" class="btn btn-default btn__icon-plus">Добавить</button>
+                    </div>
+                    <div class="form__row form__row-border form__input-group">
+                        <button type="button" class="btn btn__icon-delete app_btn-delete"></button>
+                        <div class="form__input switcher">
+                            <div class="switcher__container">
+                                <label for="institute-3">Заведение</label>
+                                <div class="switcher__wrapper">
+                                    <div class="switcher__box">
+                                        <input type="checkbox" class="switcher__check">
+                                        <div class="switcher__switch"></div>
+                                        <div class="switcher__track"></div>
+                                    </div>
+                                    <span>Switch</span>
+                                </div>
+                            </div>
+                            <input type="text" id="institute-3" placeholder="Введите учёную степень или звание">
+                        </div>
+                        <div class="form__input">
+                            <label for="specialty-3">Специальность</label>
+                            <input type="text" id="specialty-3" placeholder="Введите специализацию">
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <button type="button" class="btn btn-default btn-normal btn-disabled">Добавить</button>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input">
+                            <h5>Range</h5>
+                            <div class="range-slider">
+                                <div class="range-slider__item range-slider__value">0</div>
+                                <div class="range-slider__range-wrapper range-slider__item">
+                                    <input class="range-slider__range" type="range" value="0" min="-50" max="50">
+                                </div>
+                                <div class="range-slider__item range-slider__value ">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input">
+                            <h5>Переключение темы</h5>
+                            <div class="btn__group">
+                                <button type="button" class="btn btn-light btn-tab app__theme-light">Светлая</button>
+                                <button type="button" class="btn btn-dark btn-tab app__theme-dark">Темная</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/forms.js"></script></body>
+
+</html>

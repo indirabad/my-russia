@@ -1,0 +1,98 @@
+.form__check {
+    align-items: flex-end;
+    flex-direction: row;
+
+    input[type='checkbox'] {
+
+        &:checked,
+        &:not(:checked) {
+            position: absolute;
+            left: -9999px;
+
+            &+label {
+                display: flex;
+                align-items: flex-start;
+                position: relative;
+                padding-left: 20px;
+                line-height: 24px;
+                cursor: pointer;
+                font-weight: normal;
+                font-size: 14px;
+
+                &:before {
+                    content: '';
+                    top: 4px;
+                    position: absolute;
+                    left: 0px;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 4px;
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: 3px;
+                    top: 7px;
+                    width: 9px;
+                    height: 5px;
+                    border-radius: 1px;
+                    border-left: 2px solid $c-white;
+                    border-bottom: 2px solid $c-white;
+                    transform: rotate(-45deg);
+                    @include base-animation;
+                }
+            }
+        }
+
+        &:checked {
+            &+label {
+                &:before {
+                    border: 1px solid $c-primary;
+                    background-color: $c-primary;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+
+        &:not(:checked) {
+            &+label {
+                &:before {
+                    border: 1px solid $bd-deep-grey;
+                    background-color: $c-white;
+                }
+
+                &:after {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+// THEME DARK
+.theme-dark {
+    .form__check {
+        input[type='checkbox'] {
+            &:checked {
+                &+label {
+                    &:before {
+                        border: 1px solid $c-primary-dark;
+                        background-color: $c-primary-dark;
+                    }
+                }
+            }
+
+            &:not(:checked) {
+                &+label {
+                    &:before {
+                        background-color: $bg-dark-grey;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="40" viewBox="0 0 1240 40">
+<svg id="icon-range-thumb" width="17" height="40" viewBox="0 0 17 40" x="0" y="0">
+<path fill="#a9967d" d="M11.915 2.553h-6.809c-0.94 0-1.702 0.762-1.702 1.702v30.638c0 0.94 0.762 1.702 1.702 1.702h6.809c0.94 0 1.702-0.762 1.702-1.702v-30.638c0-0.94-0.762-1.702-1.702-1.702z"></path>
+<path fill="#fff" d="M9.362 11.064h-1.702c-0.47 0-0.851 0.381-0.851 0.851v15.319c0 0.47 0.381 0.851 0.851 0.851h1.702c0.47 0 0.851-0.381 0.851-0.851v-15.319c0-0.47-0.381-0.851-0.851-0.851z"></path>
+</svg>
+<svg id="icon-plus-white" width="16" height="16" viewBox="0 0 40 40" x="50" y="0">
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M37.778 20h-35.555"></path>
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M20 2.222v35.555"></path>
+</svg>
+<svg id="icon-delete-white" width="16" height="16" viewBox="0 0 40 40" x="100" y="0">
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M7.5 10h25"></path>
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M30 10v21.875c0 0.829-0.301 1.624-0.837 2.21s-1.263 0.915-2.021 0.915h-14.286c-0.758 0-1.484-0.329-2.020-0.915s-0.837-1.381-0.837-2.21v-21.875"></path>
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M12.5 10v-2.5c0-0.663 0.395-1.299 1.098-1.768s1.657-0.732 2.652-0.732h7.5c0.995 0 1.949 0.263 2.652 0.732s1.098 1.105 1.098 1.768v2.5"></path>
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M16.666 17.5v10"></path>
+<path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M23.334 17.5v10"></path>
+</svg>
+<svg id="icon-delete" width="16" height="16" viewBox="0 0 40 40" x="150" y="0">
+<path fill="none" stroke="#d14114" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M7.5 10h25"></path>
+<path fill="none" stroke="#d14114" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M30 10v21.875c0 0.829-0.301 1.624-0.837 2.21s-1.263 0.915-2.021 0.915h-14.286c-0.758 0-1.484-0.329-2.020-0.915s-0.837-1.381-0.837-2.21v-21.875"></path>
+<path fill="none" stroke="#d14114" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M12.5 10v-2.5c0-0.663 0.395-1.299 1.098-1.768s1.657-0.732 2.652-0.732h7.5c0.995 0 1.949 0.263 2.652 0.732s1.098 1.105 1.098 1.768v2.5"></path>
+<path fill="none" stroke="#d14114" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M16.666 17.5v10"></path>
+<path fill="none" stroke="#d14114" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M23.334 17.5v10"></path>
+</svg>
+<svg id="icon-range-thumb-green" width="17" height="40" viewBox="0 0 17 40" x="200" y="0">
+<path fill="#60a772" d="M11.915 2.553h-6.809c-0.94 0-1.702 0.762-1.702 1.702v30.638c0 0.94 0.762 1.702 1.702 1.702h6.809c0.94 0 1.702-0.762 1.702-1.702v-30.638c0-0.94-0.762-1.702-1.702-1.702z"></path>
+<path fill="#fff" d="M9.362 11.064h-1.702c-0.47 0-0.851 0.381-0.851 0.851v15.319c0 0.47 0.381 0.851 0.851 0.851h1.702c0.47 0 0.851-0.381 0.851-0.851v-15.319c0-0.47-0.381-0.851-0.851-0.851z"></path>
+</svg>
+<svg id="icon-plus-green" width="16" height="16" viewBox="0 0 40 40" x="250" y="0">
+<path fill="none" stroke="#60a772" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M37.778 20h-35.556"></path>
+<path fill="none" stroke="#60a772" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M20 2.222v35.556"></path>
+</svg>
+<svg id="icon-plus" width="16" height="16" viewBox="0 0 40 40" x="300" y="0">
+<path fill="none" stroke="#a9967d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M37.778 20h-35.556"></path>
+<path fill="none" stroke="#a9967d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M20 2.222v35.556"></path>
+</svg>
+</svg>

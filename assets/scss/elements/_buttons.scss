@@ -1,0 +1,291 @@
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    border: 1px solid currentColor;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    @include base-animation;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    // .btn-disabled
+    &-disabled {
+        pointer-events: none;
+    }
+
+    // SIZES
+    // .btn-normal
+    &-normal {
+        padding: 8px 11px;
+    }
+
+    // .btn-tab
+    &-tab {
+        padding: 4px 76px;
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    // COLORS 
+    // .btn-default
+    &-default {
+        color: $c-primary;
+        background: $c-white;
+
+        &:active,
+        &:focus,
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus {
+            color: $c-primary;
+            box-shadow: none;
+            background: $c-white;
+        }
+
+        &:hover {
+            color: $c-white;
+            border-color: $c-primary;
+            background: $c-primary;
+        }
+    }
+
+    // .btn-primary
+    &-primary {
+        color: $c-white;
+        border-color: $c-primary;
+        background: $c-primary;
+
+        &:active,
+        &:focus,
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active:focus,
+        &:not(:disabled):not(.disabled):active:focus {
+            color: $c-white;
+            border-color: $c-primary;
+            background: $c-primary;
+            box-shadow: none;
+        }
+
+        &:hover {
+            color: $c-primary;
+            border-color: $c-primary;
+            background: $c-white;
+        }
+    }
+
+    // .btn-disabled
+    &-disabled {
+        border-color: $bd-grey;
+        background: $bg-grey;
+        color: $c-grey;
+    }
+
+    // .btn-light
+    &-light {
+        box-shadow: 0px 1px 4px rgba(58, 58, 58, 0.3);
+        background: $c-white;
+        border: none;
+    }
+
+    // .btn-dark
+    &-dark {
+        background: $bg-grey;
+        border: none;
+        font-weight: normal;
+
+        &:hover {
+            box-shadow: 0px 1px 4px rgba(58, 58, 58, 0.3);
+            background: $c-white;
+            font-weight: bold;
+        }
+    }
+
+    // ICONS
+    // .btn__icon-delete
+    &__icon-delete {
+        position: relative;
+        min-width: 24px;
+        height: 24px;
+        background: $c-white;
+        box-shadow: 0px 4px 10px rgba(58, 58, 58, 0.25);
+        border: none;
+
+        &:before {
+            position: absolute;
+            content: '';
+            top: 4px;
+            left: 4px;
+            @include icon(16px, 16px, -150px 0);
+        }
+
+        &:hover {
+            background: $c-red;
+
+            &:before {
+                @include icon(16px, 16px, -100px 0);
+            }
+        }
+    }
+
+    // .btn__icon-plus
+    &__icon-plus {
+        position: relative;
+        padding: 9px 16px 9px 44px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            top: 12px;
+            left: 20px;
+            @include icon(16px, 16px, -300px 0);
+        }
+
+        &:hover {
+            &:before {
+                @include icon(16px, 16px, -50px 0);
+            }
+        }
+    }
+
+    // BTN GROUP
+    // .btn__group
+    &__group {
+        display: flex;
+        background-color: $bg-grey;
+        border-radius: 4px;
+        flex-wrap: wrap;
+        width: 100%;
+
+        @media (min-width: 575px) {
+            width: fit-content;
+            flex-wrap: nowrap;
+        }
+
+        .btn {
+            margin: 4px;
+            position: relative;
+            width: 100%;
+
+            @media (min-width: 575px) {
+                min-width: 202px;
+            }
+
+            &:not(&:last-child) {
+                @media (min-width: 575px) {
+                    &:after {
+                        content: '';
+                        width: 1px;
+                        height: 100%;
+                        position: absolute;
+                        right: -4px;
+                        top: 0;
+                        background-color: $bd-deep-grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// THEME DARK
+.theme-dark {
+    .btn {
+
+        // .btn-default
+        &-default {
+            color: $c-primary-dark;
+            background: $bg-dark-grey;
+
+            &:active,
+            &:focus,
+            &:hover {
+                color: $c-white;
+                border-color: $c-primary-dark;
+                background: $c-primary-dark;
+            }
+        }
+
+        // .btn-primary
+        &-primary {
+            color: $c-white;
+            border-color: $c-primary-dark;
+            background: $c-primary-dark;
+
+            &:active,
+            &:focus,
+            &:hover {
+                color: $c-primary-dark;
+                border-color: $c-primary-dark;
+                background: $bg-dark-grey;
+            }
+        }
+
+        // .btn-disabled
+        &-disabled {
+            background: $bg-dark-244-1;
+            color: $c-grey;
+        }
+
+        // .btn-light
+        &-light {
+            background: none;
+            font-weight: normal;
+            color: $c-white;
+
+            &:active,
+            &:focus,
+            &:hover {
+                background: $bg-dark-255-2;
+                box-shadow: 0px 1px 4px rgba(58, 58, 58, 0.3);
+                font-weight: bold;
+            }
+        }
+
+        // .btn-dark
+        &-dark {
+            background: $bg-dark-255-2;
+            box-shadow: 0px 1px 4px rgba(58, 58, 58, 0.3);
+            font-weight: bold;
+            color: $c-white;
+        }
+
+        // .btn__icon-plus
+        &__icon-plus {
+            &:before {
+                @include icon(16px, 16px, -250px 0);
+            }
+
+            &:hover {
+                &:before {
+                    @include icon(16px, 16px, -50px 0);
+                }
+            }
+        }
+
+        // .btn__group
+        &__group {
+            background: $bg-dark-244-2;
+
+            .btn {
+                &:not(&:last-child) {
+                    @media (min-width: 575px) {
+                        &:after {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

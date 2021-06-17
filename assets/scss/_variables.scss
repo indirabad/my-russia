@@ -1,0 +1,42 @@
+// IMPORT FONT
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+// PATH
+$img-folder: '../images/';
+
+// COLORS
+
+$c-primary:			#A9967D;
+$c-black:			#000000;
+$c-default-black:   #282828;
+$c-white:           #ffffff;
+$c-grey:            #9F9F9F;
+$c-red:             #D14114;
+$c-green:           #28A745;
+
+// COLORS THEME DARK
+$c-primary-dark:	#60A772;
+
+// BACKGROUND COLOURS
+
+$bg-light:          #FCFCFC;
+$bg-grey:           #F4F4F4;
+$bg-deep-grey:      #C4C4C4;
+
+// BACKGROUND THEME DARK
+$bg-dark:          	#0F1723;
+$bg-dark-blue:     	#202E44;
+$bg-dark-grey:    	#141C2C;
+$bg-dark-255-1:    	rgba(255, 255, 255, 0.1);
+$bg-dark-255-2:    	rgba(255, 255, 255, 0.3);
+$bg-dark-244-1:    	rgba(244, 244, 244, 0.1);
+$bg-dark-244-2:    	rgba(244, 244, 244, 0.2);
+
+// BORDER COLOURS
+
+$bd-grey:           #F6F6F6;
+$bd-deep-grey:      #DAD5CE;
+
+// FONTS
+
+$font-base:			'PT Sans', sans-serif;

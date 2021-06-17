@@ -1,0 +1,15 @@
+.header {
+
+    //.header__wrapper
+    &__wrapper {
+        background: $bg-deep-grey;
+        height: 123px;
+    }
+}
+
+// THEME DARK
+.theme-dark {
+    .header__wrapper {
+        background: $bg-dark-blue;
+    }
+}
